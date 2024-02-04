@@ -30,7 +30,7 @@ export default function projetos() {
                             <span>{e.description}</span>
                             <div className='button'>
                                 <button>Codigo</button>
-                                <button>Site</button>
+                                <button>Sites</button>
                             </div>
                         </div>
                     ))
