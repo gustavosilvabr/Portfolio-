@@ -1,0 +1,12 @@
+:root{
+  background-color: #201F20;
+  font-family: monospace;
+}
+.container-perfil-soft-skils{
+  display: flex;
+}
+.container-soft-projetos{
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}

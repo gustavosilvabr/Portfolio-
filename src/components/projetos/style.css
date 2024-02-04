@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 20px;
+    color: bisque;
+    flex-wrap: wrap;
+}
+.container-projetos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    top: 10px;
+    flex-wrap: wrap;
+}
+.container-projetos .child{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    align-items: center;
+    text-align: center;
+    justify-content: end;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.child h1{
+    font-size: 20px;
+}
+.title-projeto{
+    font-size: 60px;
+}
+.button{
+    display: flex;
+    width: 100%;  
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button button{
+    display: flex;
+    position: relative;
+    margin: 20px;
+    padding: 10px 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.button button::after{
+    content: "";
+    position: absolute;
+    background-color: aqua;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px; 
+    transition: 0.4s;
+}
+.button button:hover{
+      color: aqua;
+}
+.button button:hover::after{
+    width: 100%;
+  
+}
